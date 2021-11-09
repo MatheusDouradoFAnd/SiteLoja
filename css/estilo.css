@@ -1,0 +1,235 @@
+*{
+    
+  
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+/****************
+*****estrutrura**********/
+body{
+    margin: 0px auto; 
+     width: 950px;
+    background-color: rgba(47, 91, 224, 0.322);
+}
+header{
+    
+    height: 100px;
+    background-color: royalblue;
+    border-radius:0 0 25px 25px ;
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.377);
+}
+section{
+    width:920px;
+    margin: 30px auto;
+}
+footer{
+    clear: both;
+    height: 100px;
+    background-color:royalblue;
+    border-radius:25px 25px 0 0;
+    display: flex;
+	justify-content: space-between;
+	
+  
+}  
+/******************************************
+**********>HEADER**************************/
+#logo{
+   
+    width: 160px;
+    position: relative;
+    top: 15px;
+    right: -20px;
+
+}
+nav{
+   float: right;
+   position: relative;
+   top: 35px;
+   right: 20px;
+ 
+}
+nav ul{ 
+     padding: 0px;
+     display: inline-flex ;
+     list-style-type: none;
+}
+nav a{  
+   text-decoration: none;
+   color: ivory;
+   padding:10px 25px 27.8px;
+   font-size: 1.2em;
+
+   
+}
+nav a:hover{
+    background-color: rgb(161, 175, 219);
+    color: royalblue;
+    border-radius:15px 15px 0 0 ;
+    
+}
+/******************************************
+**********SECTION**************************/
+
+/*********************************
+**********AREA PRINCIPAL*********/
+
+
+#area-principal{
+    float: left;
+    width: 650px;
+    
+  
+}
+#area-secundaria{
+    float: right;
+    width: 250px;
+    
+}
+
+   
+.postagem{
+    padding: 5px 25px;
+     background-color: #fff;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 25px;
+
+}
+.foto-postagem{
+    margin-top: 20px;
+    width:600px;
+    margin-bottom: 0px;
+}
+/*********************************
+**********AREA PRINCIPAL****TEXTO*****/
+.postagem h2{
+    margin: 0px;
+    margin-bottom: 10px;
+    background-color: royalblue;
+    color: #fff;
+    padding: 5px;
+    position: relative;
+    top: -4px;
+}
+.postagem p{
+    text-indent: 25px;
+    margin: 2px;
+}
+.postagem a{
+  display: block;
+  text-decoration:none;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+.postagem a:hover{
+    text-decoration:underline;
+  }
+
+/*********************************
+**********AREA SECUNDARIA*********/
+
+.produtos{
+    background-color: #fff;
+    margin-bottom: 20px ;
+    border-radius: 0px 0px 10px ;
+    padding: 10px;
+   
+
+}
+.propaganda{
+    background-color: rgb(20, 19, 19);
+    margin: 20px 0px;
+    border-radius: 20px;
+    color: #fff;
+    padding: 10px;
+    height: 300px;
+}
+#barra-produto{
+    padding-left: 10px;
+    list-style-type: none;
+    margin: 5px;
+    
+}
+#final{
+    border-color: #fff;
+}
+
+/*********************************
+**********AREA SECUNDARIA*********/
+.produtos h4{
+    margin: 0px;
+    background-color: royalblue;
+    color: #fff;
+    padding: 5px;
+    border-radius: 0px 0px 10px ;
+}
+
+#barra-produto a {
+   width: 80%;
+   display: block;
+   padding: 3px;
+   border-bottom: 1px solid gray;
+   font-size: 1.3em;
+   text-decoration:none;
+   color: royalblue;
+}
+#barra-produto a:hover{
+    background-color: rgb(220, 231, 255);
+}
+/******************************************
+**********SECTION**************************/
+#logo-rodape{
+   
+    width: 100px;
+   position: relative;
+    
+    
+
+}
+footer a{
+    display: block;
+    position: relative;
+   
+}
+
+#area-logo{
+    display: flex;
+    width: 400px;
+    justify-content: flex-start;
+}
+
+#area-logo figcaption{
+    display: inline-block;
+    position: relative;
+    top:-21px;
+  color: #fff;
+  
+}
+#area-links{
+    float: right;
+    
+   
+   
+    
+}
+/*
+#area-links figcaption{
+    display: inline-block;
+    position: relative;
+    top: -3px;
+    
+     
+}*/
+#redes-sociais li{
+  
+    padding: 3px;
+    margin-right: 30px;
+    list-style: none;
+    line-height: 20px;
+    font-size: 18px;
+}
+#redes-sociais a{
+    text-decoration:none;
+    color: black;
+}
